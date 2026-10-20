@@ -1,18 +1,22 @@
 <div align="center">
   <h1>haau3</h1>
-  <p>Healthcare APIs for developers, and an app that helps caregivers focus on the human side of care.</p>
+  <p>A free app for caregivers, and healthcare APIs for developers.</p>
+  <a href="https://haau3.com">haau3 app</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://platform.haau3.com">haau3 platform</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://docs.haau3.com">Docs</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://platform.haau3.com">Get an API key</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://haau3.com">Caregiver app</a>
   <br />
   <hr />
 </div>
 
-## The haau3 platform API
+## haau3: the free app for caregivers
 
-One key, one FHIR base, at [api.haau3.com](https://docs.haau3.com):
+[haau3](https://haau3.com) is an AI companion that helps caregivers focus on the human side of care. It is free for caregivers.
+
+## haau3 platform: APIs for developers
+
+The [haau3 platform](https://platform.haau3.com) is for teams building healthcare software. One key, one FHIR base, at [api.haau3.com](https://docs.haau3.com):
 
 - **Scheduling:** open appointment slots from many SMART Scheduling Links publishers, in one search.
 - **Plan Benefits:** Medicare Advantage and ACA Marketplace plans as FHIR `InsurancePlan`, searchable by state or county.
