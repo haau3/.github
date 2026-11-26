@@ -1,9 +1,11 @@
 <div align="center">
   <h1>haau3</h1>
-  <p>A free app for caregivers, and healthcare APIs for developers.</p>
+  <p>A free app for caregivers, healthcare APIs for developers, and open research on caregiving.</p>
   <a href="https://haau3.com">haau3 app</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://platform.haau3.com">haau3 platform</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://research.haau3.com">haau3 Research</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://docs.haau3.com">Docs</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
@@ -36,6 +38,10 @@ The [haau3 platform](https://platform.haau3.com) is a suite of healthcare APIs, 
 
 The haau3 platform API is in preview: it may change as we build, usually to add features or improve performance. Every API open to customers today is included in every plan. Free to start on the Developer plan. See [pricing](https://platform.haau3.com/pricing).
 
+## haau3 Research: open research on caregiving
+
+[haau3 Research](https://research.haau3.com) publishes open research on caregiving, with and without AI. Each note is a short write-up of a small experiment, with its code, run logs and cost. The first compares a frontier model and a small open-weight model on a laptop on HealthBench's expertise-tailored communication: [read the note](https://research.haau3.com/notes/healthbench-expertise-tailored/).
+
 ## Start building
 
 The [Sandbox](https://docs.haau3.com/sandbox), at `https://sandbox.haau3.com`, is the API's test environment: production's paths with no key and no account, and every operation answers its documented example. The [haau3 CLI](https://docs.haau3.com/cli) takes a project from nothing to a first call:
@@ -57,7 +63,7 @@ The docs are written for coding agents as well as people: [llms.txt](https://doc
 
 ## Open source
 
-The SDKs and the command line are open source under the MIT license. Each SDK covers every endpoint, generated from the API's published [OpenAPI spec](https://api.haau3.com/openapi.json), and reads your key from `HAAU3_API_KEY`.
+The SDKs, the command line and the research are open source: code under the MIT license, and the research's writing and results under CC BY 4.0. Each SDK covers every endpoint, generated from the API's published [OpenAPI spec](https://api.haau3.com/openapi.json), and reads your key from `HAAU3_API_KEY`.
 
 | | Package | Repository |
 | --- | --- | --- |
@@ -65,6 +71,7 @@ The SDKs and the command line are open source under the MIT license. Each SDK co
 | Python SDK | [`haau3`](https://pypi.org/project/haau3/) | [haau3-python](https://github.com/haau3/haau3-python) |
 | Go SDK | [`github.com/haau3/haau3-go`](https://pkg.go.dev/github.com/haau3/haau3-go) | [haau3-go](https://github.com/haau3/haau3-go) |
 | Command line | [`haau3`](https://www.npmjs.com/package/haau3) | [haau3-cli](https://github.com/haau3/haau3-cli) |
+| Research site and notes | [research.haau3.com](https://research.haau3.com) | [research](https://github.com/haau3/research) |
 
 ## Questions
 
